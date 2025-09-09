@@ -9,7 +9,7 @@ export default function Contact(){
           <ContactBlock/>
           <div className="card" style={{padding:16}}>
             <div className="h2">Text for Faster Replies</div>
-            <p style={{color:'#9fb0c9'}}>Send your budget and ZIPs by text and we’ll reply with curated matches.</p>
+            <p style={{color:'#9fb0c9'}}>Send your name and question(s) by text and we’ll reply.</p>
             <a className="btn btn-primary" href="sms:+19547702500">Text (954) 770-2500</a>
           </div>
         </div>
