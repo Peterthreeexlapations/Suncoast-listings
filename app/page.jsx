@@ -11,7 +11,7 @@ export default function Home(){
           <div className="grid grid-2" style={{marginTop:28}}>
             <div className="card" style={{padding:16}}>
               <div className="grid grid-3">
-                {['https://images.unsplash.com/photo-1505693416388-ac5ce068fe85','https://images.unsplash.com/photo-1502005229762-cf1b2da7c52f?auto=format&fit=crop&w=800&q=60','https://images.unsplash.com/photo-1494526585095-c41746248156'].map((src,i)=>(
+                {['https://images.unsplash.com/photo-1505693416388-ac5ce068fe85','https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=60','https://images.unsplash.com/photo-1494526585095-c41746248156'].map((src,i)=>(
                   <img key={i} src={src+'?auto=format&fit=crop&w=800&q=60'} alt="Home" style={{width:'100%',height:180,objectFit:'cover',borderRadius:12}}/>
                 ))}
               </div>
