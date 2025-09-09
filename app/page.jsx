@@ -6,12 +6,12 @@ export default function Home(){
       <section className="hero">
         <div className="container" style={{padding:"60px 0"}}>
           <div className="badge">Low down options • Builder credits • Same-day tours</div>
-          <h1 className="h1" style={{marginTop:12}}>Daily list of South Florida homes under $750,000</h1>
+          <h1 className="h1" style={{marginTop:12}}>Daily list of South Florida homes under $50,000,000</h1>
           <p className="lead" style={{maxWidth:760}}>Tell us your budget, ZIPs, and must-haves. We’ll email curated homes and text you quickly if something perfect hits the market.</p>
           <div className="grid grid-2" style={{marginTop:28}}>
             <div className="card" style={{padding:16}}>
               <div className="grid grid-3">
-                {['https://images.unsplash.com/photo-1505693416388-ac5ce068fe85','https://images.unsplash.com/photo-1502005229762-cf1b2da7c52f','https://images.unsplash.com/photo-1494526585095-c41746248156'].map((src,i)=>(
+                {['https://images.unsplash.com/photo-1505693416388-ac5ce068fe85','https://images.unsplash.com/photo-1502005229762-cf1b2da7c52f?auto=format&fit=crop&w=800&q=60','https://images.unsplash.com/photo-1494526585095-c41746248156'].map((src,i)=>(
                   <img key={i} src={src+'?auto=format&fit=crop&w=800&q=60'} alt="Home" style={{width:'100%',height:180,objectFit:'cover',borderRadius:12}}/>
                 ))}
               </div>
