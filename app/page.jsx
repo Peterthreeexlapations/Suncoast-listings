@@ -5,7 +5,7 @@ import Link from "next/link";
 
 // Paste your Apps Script Web App URL here (must end with /exec)
 const APPS_SCRIPT_WEB_APP_URL =
-  "https://script.google.com/macros/s/AKfycby3KbAUirTpUSxMCphphmsHJ5GLiPL9i-5fxkQ2mvUOrO6NHCCvq2N0EHipeJ6CYtU/exec";
+  "https://script.google.com/macros/s/AKfycbzKPS3FWKmd5lEP56Wg7voHgDWx0x2F0pnzs060hApgCTQOCOq8EqZ6OgkoX2-38DQ/exec";
 
 export default function Home() {
   return (
