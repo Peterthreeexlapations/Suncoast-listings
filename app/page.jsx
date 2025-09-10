@@ -90,7 +90,7 @@ export default function Home() {
 // === Form component (merged here for simplicity) ===
 function LeadForm() {
   const router = useRouter();
-  const [max, setMax] = useState(50000000);
+  const [max, setMax] = useState(25000000);
   const [submitting, setSubmitting] = useState(false);
 
   async function onSubmit(e) {
@@ -176,7 +176,7 @@ function LeadForm() {
             className="input"
             type="range"
             min={150000}
-            max={50000000}
+            max={25000000}
             step={5000}
             value={max}
             onChange={(e) => setMax(parseInt(e.target.value))}
