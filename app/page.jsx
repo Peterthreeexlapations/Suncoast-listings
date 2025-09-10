@@ -16,7 +16,7 @@ export default function Home() {
             Low down options • Builder credits • Same-day tours
           </div>
           <h1 className="h1" style={{ marginTop: 12 }}>
-            Daily list of South Florida homes under $750,000
+            Daily list of South Florida homes under $25,000,000
           </h1>
           <p className="lead" style={{ maxWidth: 760 }}>
             Tell us your budget, ZIPs, and must-haves. We’ll email curated homes
