@@ -29,7 +29,7 @@ export default function Home() {
               <div className="grid grid-3">
                 {[
                   "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
-                  "https://images.unsplash.com/photo-1502005229762-cf1b2da7c52f",
+                  "https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1200&q=60",
                   "https://images.unsplash.com/photo-1494526585095-c41746248156",
                 ].map((src, i) => (
                   <img
@@ -90,7 +90,7 @@ export default function Home() {
 // === Form component (merged here for simplicity) ===
 function LeadForm() {
   const router = useRouter();
-  const [max, setMax] = useState(750000);
+  const [max, setMax] = useState(50000000);
   const [submitting, setSubmitting] = useState(false);
 
   async function onSubmit(e) {
